@@ -7,6 +7,11 @@
 	color: #fff;
 }
 
+.nav-link {
+	font-size: 20px;
+	text-align: right;
+}
+
 .main-header {
 	background: url(../img/wallpalper.jpg);
 	background-size: cover;
@@ -40,9 +45,16 @@
 
 .card {
 	background-color: rgba(48, 51, 107, .7);
-
+    height: 600px;
 	transition: 1s;
 
+}
+
+.card-header {
+	height: 220px;
+}
+.card-header img {
+	height: 200px;
 }
 
 .card:hover {
@@ -59,13 +71,7 @@
 	background-color: #572364;
 }
 
-span {
-	color: #572364;
-}
 
-.morado {
-		color: #572364;
-}
 .col-md-4 i {
 	color: #572364;
 }
